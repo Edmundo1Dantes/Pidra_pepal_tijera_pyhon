@@ -35,12 +35,11 @@ while Victorias_j1_ < 2 and Victorias_j2_<2 and Intentos < 5:
         Victorias_j2_ += 1
     Intentos += 1 
 
-    if Victorias_j1_ > NPG:
-        print("🎉 ¡Ganador final:", nombre1, "!")
-        break
-    elif Victorias_j2_ > NPG:
-        print("🎉 ¡Ganador final:", nombre2, "!")
-        break
-    else:
-        print("¡Empate final!")
-        
+
+if Victorias_j1_ >= NPG:
+    print("🎉 ¡Ganador final:", nombre1, "!")
+elif Victorias_j2_ >= NPG:
+    print("🎉 ¡Ganador final:", nombre2, "!")
+else:
+    print("¡Empate final!")
+    
