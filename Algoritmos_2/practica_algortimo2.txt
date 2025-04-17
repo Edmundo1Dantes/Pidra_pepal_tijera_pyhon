@@ -1,0 +1,21 @@
+--------------------------------
+Problmetaitca: 
+"El usuario queire saber el area de un circulo teniendo el radiro
+--------------------------------
+--------------------------------
+Algotitmo
+|1. Solicitar al usuario que ingrese el radio del area del circulo a calcular
+2. calcular el area del circulo utilizando el radio que nos dan ... area = Pi * r*r
+3. Devolver el area del circulo
+--------------------------------
+--------------------------------
+Pseudo codigo
+
+inicio 
+|1. Solicitar al usuario que ingrese el radio del area del circulo a calcular
+ Mostar mensaje: "Por favor ingrese el radio del circulo"
+ Leer el dato y asignarlo a variable radio
+ 2. . calcular el area del circulo utilizando el radio que nos dan ... area = Pi * r*r
+ Definir y asignar a la variable area el resultado de Pi *r*radio
+ 3. Devolver el area del circulo
+Mensaje "El area del cirudlo con radio", radio, "es", area 
